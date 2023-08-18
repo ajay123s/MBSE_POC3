@@ -1,0 +1,57 @@
+- software service platform
+- boards for project management 
+- Repos for version control
+- CICD pipelines for 
+- Test suit
+- Artifact mangement system
+
+project board - project plan - Back log/bug, Task, Progress, Reporting
+              - link to artifacts
+
+goes to repo - to CICD pipeline
+
+
+developer devolop code and store in git repository or devops repo
+then can import code in devop from git
+when we build it will provide dll file
+Create pipeline
+select Yaml
+select repository 
+.net core
+
+pipeline run = 
+top to bottom
+restore, build, test, publish...
+
+generate DLL, publish will convert it to zip
+
+
+
+//
+boards - Agile/ Scrum while creating new project select workflow
+
+         Issue, tickets,on imporvement features, and communicating betweeen tester
+developer, tracking.
+
+// AZURE REPOS
+HOSTING THE CODE - not only hosting the hosting the code, parts of developer, collaborate and work togethere
+
+CODE REVIEWS
+PULL REQUESTS
+BRANCH POLICIES
+
+DEVELOPER - CREATE BRANCH OTHER DEVLOPER PULL REQUEST TO REVIEW (communicate and collaborate)
+pull request to be good enough to be merge into main branch
+
+--GIT WORKFLOW-- The way the team uses Git and work on the code
+
+now code is merged to the main branch
+
+//Azure Pipelines
+
+we want to release this new feature/bug
+before that need to    TEST  -  PACKAGE  -  INTO SINGLE ARTIFACT--DEPLOY INTO END ENVIRONMENT
+to automate this we have CICD pipeline\
+
+-you write your pipeline in a YAML file
+-Host this pipeline config with the rest of app code in your git project
